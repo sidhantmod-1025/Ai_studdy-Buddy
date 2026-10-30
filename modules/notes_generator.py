@@ -26,7 +26,7 @@ def generate_notes(client, topic):
     """
 
     response = client.chat.completions.create(
-        model="openai/gpt-oss-120b",
+        model="openai/gpt-oss-20b",
         messages=[
             {
                 "role": "user",
